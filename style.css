@@ -5,3 +5,70 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* Generics */
+
+body {
+    background-color: #F5F5F1;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Utils */
+
+.mt-20 {
+    margin-top: 20px;
+}
+
+.mt-30 {
+    margin-top: 30px;
+}
+
+.mb-30 {
+    margin-bottom: 30px;
+}
+
+.border {
+    border: 2px solid black;
+}
+
+
+/* Header */
+
+
+
+/* Main */
+
+.container {
+    max-width: 80%;
+    margin: 0 auto;
+    display: flex;
+}
+
+.row {
+    display: flex;
+    width: 100%;
+}
+
+.cols {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    border: 2px dotted blue;
+}
+
+.card {
+    height: 400px;
+    width: calc(100% / 3 - 40px);
+    border: 2px dotted red;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
